@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MJB Logistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">📦</span>
+                    <span class="logo-text">MJB Logistics</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're Here to Help With Your Logistics Needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Get In Touch</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Type *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="air">Canter</option>
+                                <option value="sea">Okada</option>
+                                <option value="warehouse">Warehousing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="origin">Origin Location *</label>
+                            <input type="text" id="origin" name="origin" placeholder="City, Country" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Destination Location *</label>
+                            <input type="text" id="destination" name="destination" placeholder="City, Country" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cargo">Description *</label>
+                            <textarea id="cargo" name="cargo" rows="4" placeholder="Describe the cargo, weight, dimensions, etc." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special requirements or questions..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="agree" name="agree" required>
+                            <label for="agree">I agree to the privacy policy and terms of service</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Request</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2>Contact Information</h2>
+
+                    <div class="contact-info-item">
+                        <h3>📍 Head Office</h3>
+                        <p>13 Zoo Road<br>Kano City5<br>Nigeria</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📞 Phone</h3>
+                        <p><a href="tel:08144912002">08144912002</a></p>
+                        <p>Available 24/7 for urgent shipments</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@mjblogistics.com">info@mjblogistics.com</a></p>
+                        <p>General inquiries and quotes</p>
+                    </div>
+
+                   
+                    <div class="contact-info-item">
+                        <h3>⏰ Business Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                           Saturday: 9:00 AM - 2:00 PM<br>
+                           Sunday: Closed</p>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-contact">
+                            <a href="#" class="social-icon">Facebook</a>
+                            <a href="#" class="social-icon">Twitter</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                            <a href="#" class="social-icon">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are your shipping timelines?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Timelines vary by service. Custom timelines available upon request.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you handle hazardous materials?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we are certified to transport hazardous materials. We follow all international regulations and have specialized equipment for safe handling.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is your damage/loss policy?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All shipments are covered by our insurance policy. We maintain a 99.8% damage-free record and handle claims within 10 business days.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you provide real-time tracking?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, all shipments come with real-time GPS tracking accessible through our customer portal. You'll receive notifications at key milestones.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do I get a shipping quote?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Simply fill out our quote request form above or call us directly. We'll provide a detailed estimate within 24 hours of receiving your inquiry.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer flexible payment terms?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer various payment options including net 30/60, credit cards, wire transfers, and special arrangements for volume clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Help Right Now?</h2>
+            <p>Call our 24/7 hotline for urgent shipments</p>
+            <a href="tel:08144912002" class="btn btn-secondary">08144912002</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MJB Logistics</h3>
+                    <p>Your trusted partner in global logistics and freight management.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Land Transport</a></li>
+                        <li><a href="services.html">Air Freight</a></li>
+                        <li><a href="services.html">Sea Freight</a></li>
+                        <li><a href="services.html">Customs Clearance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 info@mjblogistics.com</p>
+                    <p>📞 +2348144912002</p>
+                    <p>📍 Head Office<br>13 Zoo Road<br>Kano City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MJB Logistics. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
