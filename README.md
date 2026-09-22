@@ -1,4 +1,4 @@
-# MJB Logistics - Global Freight & Logistics Solutions
+# MJB Logistics - Logistics Solutions
 
 A professional, responsive website for MJB Logistics, a global logistics and freight management company. This project demonstrates modern web development practices with HTML5, CSS3, and vanilla JavaScript.
 
